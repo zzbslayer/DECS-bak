@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import oshi.SystemInfo;
@@ -87,7 +86,7 @@ public class BasicServiceImpl implements BasicService{
      * 获取实时的发送字节数
      * @return
      */
-    @Scheduled(cron = "0/5 * * * * ?")
+    //@Scheduled(cron = "0/5 * * * * ?")
     @Override
     public List<Long> getBytesSent() {
         SystemInfo systemInfo = new SystemInfo();

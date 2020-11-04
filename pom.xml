@@ -49,18 +49,6 @@
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
 
-		<!--netty-->
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-transport</artifactId>
-            <version>4.1.29.Final</version>
-        </dependency>
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-codec</artifactId>
-            <version>4.1.29.Final</version>
-        </dependency>
-
         <!--&lt;!&ndash; feign&ndash;&gt;-->
         <!--<dependency>-->
             <!--<groupId>org.springframework.cloud</groupId>-->

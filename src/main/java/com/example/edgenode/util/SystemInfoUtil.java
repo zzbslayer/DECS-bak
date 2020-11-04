@@ -28,7 +28,7 @@ public class SystemInfoUtil {
         HardwareAbstractionLayer hal = si.getHardware();
         OperatingSystem os = si.getOperatingSystem();
 
-        //System.out.println(os);
+        //fSystem.out.println(os);
 
         //LOG.info("Checking computer system...");
         //printComputerSystem(hal.getComputerSystem());
